@@ -1,0 +1,21 @@
+#teamInfo {
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    padding: 20px;
+}
+
+/* Media query for screens with a maximum width of 600px */
+@media screen and (max-width: 600px) {
+    body {
+        margin-right: 0; /* Remove margin on smaller screens */
+    }
+}
+
+body {
+    
+    margin-right: 2%; /* Adjust the margin value based on your design */
+    min-width: 780px; /* your desired width */
+    max-width: 100%;
+    position: relative;
+    vertical-align:middle;
+  }

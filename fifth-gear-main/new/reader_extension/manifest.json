@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "File Reader Extension",
+  "version": "1.0",
+  "description": "Reads content from abc.txt and displays it.",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
